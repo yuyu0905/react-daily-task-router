@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  BrowserRouter,
+  HashRouter,
   NavLink,
 } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ const Register = () => {
 function App() {
   return (
     <div className="container">
-      <BrowserRouter>
+      <HashRouter>
         <div className="nav-link">
           <NavLink to="/">
             <p>回到首頁</p>
@@ -35,7 +35,7 @@ function App() {
         </div>
         {/* Routes, Route 練習區 */}
         {/* 練習區 */}
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
